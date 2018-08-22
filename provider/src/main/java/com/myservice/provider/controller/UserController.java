@@ -1,0 +1,23 @@
+package com.myservice.provider.controller;
+
+import com.myservice.provider.dao.UserDao;
+
+import com.myservice.provider.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+
+
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
+    @Autowired
+    private UserDao userDao;
+    @GetMapping("/provider")
+    @ResponseBody
+    public User findUser(@RequestParam("id") long id){
+       return userDao.findOne(id);
+    }
+}
