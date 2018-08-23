@@ -8,7 +8,6 @@
         <artifactId>plateform</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.myservice</groupId>
     <artifactId>discover</artifactId>
     <dependencies>
         <dependency>

@@ -7,7 +7,7 @@
         <groupId>com.myservice</groupId>
         <artifactId>plateform</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../plateform/pom.xml</relativePath>
     </parent>
     <groupId>com.myservice</groupId>
     <artifactId>consumer</artifactId>
