@@ -9,3 +9,12 @@ eureka:
 spring:
   application:
     name: ribbon
+#provider:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+ribbon:
+  eureka:
+   enabled: false
+provider:
+  ribbon:
+    listOfServers: localhost:1001

@@ -12,7 +12,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.7.RELEASE</version>
     </parent>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -29,6 +28,7 @@
          <module>../provider</module>
          <module>../discover</module>
          <module>../ribbon</module>
+         <module>../myfegin</module>
      </modules>
 
     <build>
@@ -38,6 +38,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
     </build>
 
 </project>

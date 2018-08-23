@@ -9,9 +9,9 @@ spring:
     hibernate:
       ddl-auto: none
   application:
-    name: provider2
+    name: provider
 server:
-  port: 1003
+  port: 1001
 eureka:
   client:
     service-url:

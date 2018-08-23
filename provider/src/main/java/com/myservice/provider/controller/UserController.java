@@ -10,14 +10,20 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/user")
 public class UserController {
 
     @Autowired
     private UserDao userDao;
-    @GetMapping("/provider")
+    @RequestMapping(value = "/user",method = RequestMethod.GET)
     @ResponseBody
     public User findUser(@RequestParam("id") long id){
        return userDao.findOne(id);
     }
+
+    @RequestMapping(value = "/get-user",method = RequestMethod.POST)
+    @ResponseBody
+    public User getUser(@RequestBody User user){
+        return user;
+    }
+
 }

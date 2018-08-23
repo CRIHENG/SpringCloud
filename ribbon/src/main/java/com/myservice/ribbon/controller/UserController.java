@@ -21,6 +21,11 @@ public class UserController {
     @GetMapping("/consumer")
     @ResponseBody
     public User getUser(@RequestParam("id") Long id) {
+        ServiceInstance serviceInstance = loadBalancerClient.choose("provider");
+        System.out.println(serviceInstance.getServiceId() + ":" + serviceInstance.getHost() + ":" + serviceInstance.getPort());
+       /* ServiceInstance serviceInstance2 = loadBalancerClient.choose("provider2");
+        System.out.println(serviceInstance2.getServiceId() + ":" + serviceInstance2.getHost() + ":" + serviceInstance2.getPort());
+*/
         return this.restTemplate.getForObject("http://provider/user/provider?id=" + id, User.class);
     }
 

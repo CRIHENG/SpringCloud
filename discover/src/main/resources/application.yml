@@ -10,10 +10,8 @@ eureka:
   client:
     service-url:
       defalutZone: http://user:123@localhost:8761/eureka
-    #只将当前服务当作eurekaserver
     register-with-eureka: false
     fetch-registry: false
-    #指定浏览器显示
   instance:
     prefer-ip-address: true
     instance-id: ${spring.application.name}:${server.port}
