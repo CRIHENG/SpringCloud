@@ -6,7 +6,9 @@ eureka:
     service-url:
       defaultZone: http://user:123@localhost:8761/eureka
   instance:
+    #虚拟IP
     prefer-ip-address: true
+    #定义展示格式
     instance-id: ${spring.application.name}:${server.port}
 spring:
   application:
