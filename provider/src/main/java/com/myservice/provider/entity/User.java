@@ -17,6 +17,8 @@ public class User {
     @Column
     private String age;
 
+
+
     public Long getId() {
         return id;
     }
