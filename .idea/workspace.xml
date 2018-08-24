@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="072495d5-d1d0-4a2e-afc2-fb2caa158c72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfegin/src/main/java/com/myservice/myfegin/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfegin/src/main/java/com/myservice/myfegin/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfegin/src/main/java/com/myservice/myfegin/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/RuleConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discover/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plateform/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plateform/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/myservice/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/myservice/provider/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/RibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/RibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/myservice/ribbon/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/provider/target/" />
     <ignored path="$PROJECT_DIR$/consumer/target/" />
@@ -609,7 +587,7 @@
       <workItem from="1534992630370" duration="10555000" />
       <workItem from="1535007273581" duration="400000" />
       <workItem from="1535007720236" duration="443000" />
-      <workItem from="1535008212544" duration="5203000" />
+      <workItem from="1535008212544" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="123123">
       <created>1534988910449</created>
@@ -625,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534995836486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="无法加载主类 没有.class">
+      <created>1535016213278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535016213278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32908000" />
+    <option name="totallyTimeSpent" value="33529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1102,7 +1087,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
